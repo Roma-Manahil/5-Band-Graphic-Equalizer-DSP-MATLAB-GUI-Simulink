@@ -1,6 +1,6 @@
-# 🎧 5-Band Graphic Equalizer (MATLAB + Simulink)
+# 5-Band Graphic Equalizer (MATLAB + Simulink)
 
-## 📌 Overview
+## Overview
 
 This project presents the **design and implementation of a 5-band graphic equalizer** using **MATLAB, Simulink, and Digital Signal Processing (DSP)** concepts.
 
@@ -8,19 +8,19 @@ The system enables **real-time audio processing**, allowing users to dynamically
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-* 🎚️ 5-band equalizer (ISO standard frequencies)
-* 🎵 Real-time audio processing
-* 🖥️ Interactive MATLAB GUI
-* 📊 Time & frequency domain visualization
-* 🔊 Playback of original and processed signals
-* 🔁 Automatic normalization to prevent clipping
-* 🧠 DSP-based filter design using Butterworth filters
+* 5-band equalizer (ISO standard frequencies)
+* Real-time audio processing
+* Interactive MATLAB GUI
+* Time & frequency domain visualization
+* Playback of original and processed signals
+* Automatic normalization to prevent clipping
+* DSP-based filter design using Butterworth filters
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```
 Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Audio
@@ -33,7 +33,7 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## 🎛️ Frequency Bands
+## Frequency Bands
 
 | Band | Frequency | Purpose      |
 | ---- | --------- | ------------ |
@@ -45,7 +45,7 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## ⚙️ Technical Details
+## Technical Details
 
 * **Sampling Frequency:** 62 kHz
 * **Filter Type:** Butterworth Bandpass
@@ -55,7 +55,7 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## 🖥️ GUI Features
+## GUI Features
 
 * Load audio files (.wav, .mp3, .flac)
 * Adjustable sliders for each frequency band
@@ -71,7 +71,7 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## 📊 Signal Processing Workflow
+## Signal Processing Workflow
 
 1. Audio is loaded and normalized
 2. Passed through 5 bandpass filters
@@ -81,7 +81,7 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## 🧪 Simulink Implementation
+## Simulink Implementation
 
 * Parallel filter structure
 * Real-time signal flow modeling
@@ -90,7 +90,7 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## 📈 Results
+## Results
 
 * Achieved near-flat response (±1 dB deviation)
 * Enhanced:
@@ -115,7 +115,7 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Run filter design script:
 
@@ -129,11 +129,11 @@ filter_design
 equalizer_gui
 ```
 
-3. Load audio and start experimenting 🎧
+3. Load audio and start experimenting 
 
 ---
 
-## 🧩 Applications
+## Applications
 
 * Music production
 * Audio enhancement systems
@@ -143,7 +143,7 @@ equalizer_gui
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Dynamic Q-factor control
 * Real-time streaming input
@@ -152,7 +152,5 @@ equalizer_gui
 
 ---
 
-## 👩‍💻 Author
-
-**Roma Manahil**
+## Author
 Computer Engineering Student | DSP & Embedded Systems Enthusiast
