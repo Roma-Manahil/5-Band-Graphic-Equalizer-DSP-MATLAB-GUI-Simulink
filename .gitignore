@@ -1,0 +1,17 @@
+# MATLAB autosave files
+*.asv
+
+# MATLAB code analyzer results
+*.slxc
+*.mex*
+
+# Simulink project cache and autosaves
+slprj/
+*.bak
+*.glnxa64
+*.maci64
+*.win64
+
+# System/OS generated files
+.DS_Store
+Thumbs.db
