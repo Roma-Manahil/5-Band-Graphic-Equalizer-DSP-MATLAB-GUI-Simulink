@@ -102,19 +102,6 @@ Input Audio → Bandpass Filters → Gain Adjustment → Summation → Output Au
 
 ---
 
-## 📁 Project Structure
-
-```
-├── equalizer_gui.m
-├── filter_design.m
-├── eq_filters.mat
-├── simulink_model.slx
-├── report.pdf
-├── screenshots/
-```
-
----
-
 ## How to Run
 
 1. Run filter design script:
@@ -150,6 +137,11 @@ equalizer_gui
 * Mobile/embedded implementation
 * AI-based adaptive equalization
 
+---
+
+## Detailed Project Report/ Documentation
+
+* 📄 [View the Project Report](./project-report.pdf) 
 ---
 
 ## Author
